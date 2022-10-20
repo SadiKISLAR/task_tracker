@@ -1,0 +1,25 @@
+.header{
+    display: block;
+    flex-direction: column;
+    color: black;
+    
+}
+.show-button{
+    display: block;
+    background-color: orange;
+    color: white;
+    border-radius: 10%;
+    width: 150px;
+    border: none;
+}
+
+.btn-submit {
+  padding: 10px;
+  
+  border: none;
+  margin: 0 5px;
+  width: 100%;
+  background-color: purple;
+  font-size: 20px;
+  font-weight: 600;
+}
