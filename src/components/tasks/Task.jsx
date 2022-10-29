@@ -2,6 +2,7 @@ import React from 'react'
 
 const Task = () => {
     
+  
   return (
          <ul className="allTodos">
       {todos.map((t, index) => (
