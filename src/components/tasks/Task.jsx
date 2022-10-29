@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Task = () => {
+const Task = ({handleDelete, completeTodo, todos}) => {
     
 
   return (
