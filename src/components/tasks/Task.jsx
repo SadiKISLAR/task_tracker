@@ -2,7 +2,7 @@ import React from 'react'
 
 const Task = () => {
     
-  
+
   return (
          <ul className="allTodos">
       {todos.map((t, index) => (
@@ -11,7 +11,7 @@ const Task = () => {
             key={index}
             className={t.isComplete ? "inlist" : "inlist-line"}
           >
-            <span className="todoText" onClick={() => complateTodo(t.id)} key={t.id}>
+            <span className="todoText" onClick={() => completeTodo(t.id)} key={t.id}>
               {t.todo}
             </span>
             <span className="todoDate">{t.date}</span>
